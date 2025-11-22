@@ -1,271 +1,374 @@
 <!doctype html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Highsky - AI/ML researcher and developer" />
+    <meta name="keywords" content="AI, Machine Learning, Portfolio, Developer, Researcher" />
+    <meta name="author" content="Highsky" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Highsky - AI/ML researcher and developer" />
-  <meta name="keywords" content="AI, Machine Learning, Portfolio, Developer, Researcher" />
-  <meta name="author" content="Highsky" />
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Seungmin Lee - AI/ML Portfolio" />
+    <meta property="og:description" content="AI/ML researcher and developer" />
 
-  <!-- Open Graph / Social Media -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Seungmin Lee - AI/ML Portfolio" />
-  <meta property="og:description" content="AI/ML researcher and developer" />
+    <title>Seungmin Lee - Robotics AI/ML Portfolio</title>
 
-  <title>Seungmin Lee - Robotics AI/ML Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;900&display=swap"
-    rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
+  <body data-theme="light">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">Seungmin Lee</a>
 
-<body data-theme="light">
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="nav-container">
-      <a href="#hero" class="nav-logo">Seungmin Lee</a>
+        <!-- Desktop Navigation -->
+        <ul class="desktop-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-      <!-- Desktop Navigation -->
-      <ul class="desktop-nav">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+          <svg
+            class="sun-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg
+            class="moon-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
 
-      <!-- Theme Toggle -->
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
-        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="5"></circle>
-          <line x1="12" y1="1" x2="12" y2="3"></line>
-          <line x1="12" y1="21" x2="12" y2="23"></line>
-          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-          <line x1="1" y1="12" x2="3" y2="12"></line>
-          <line x1="21" y1="12" x2="23" y2="12"></line>
-          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        </svg>
-        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-      </button>
-
-      <!-- Mobile Menu Toggle -->
-      <button class="mobile-menu-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-
-    <!-- Mobile Navigation -->
-    <div class="mobile-menu">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <div class="hero-background"></div>
-    <div class="container">
-      <div class="hero-content fade-in">
-        <!-- TODO: 프로필 사진을 assets/profile.jpg에 추가하세요 -->
-        <img src="assets/profile.jpg" alt="Seungmin Lee Profile" class="hero-image"
-          onerror="this.style.display='none'" />
-
-        <h1 class="hero-title">Hi, I'm <span class="gradient-text">Seungmin Lee</span></h1>
-
-        <!-- TODO: 아래 텍스트를 본인의 직함으로 변경하세요 -->
-        <p class="hero-subtitle">
-          <span id="typed-text">Robotics - AI/ML Researcher & Developer</span>
-          <span class="cursor">|</span>
-        </p>
-
-        <!-- TODO: Change this description to your own -->
-        <p class="hero-description">
-          Creating innovation at the intersection of AI and robotics.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#contact" class="btn btn-primary">Contact Me</a>
-          <!-- TODO: Add your CV file to assets/cv.pdf -->
-          <a href="assets/cv.pdf" class="btn btn-secondary" download>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-              <polyline points="7 10 12 15 17 10"></polyline>
-              <line x1="12" y1="15" x2="12" y2="3"></line>
-            </svg>
-            Download CV
-          </a>
-        </div>
-
-        <div class="hero-social">
-          <!-- TODO: LinkedIn URL을 본인의 것으로 변경하세요 -->
-          <a href="https://www.linkedin.com/in/seungminleealbert" target="_blank" rel="noopener noreferrer"
-            aria-label="LinkedIn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-            </svg>
-          </a>
-
-          <!-- TODO: GitHub 사용자명을 본인의 것으로 변경하세요 -->
-          <a href="https://github.com/Highsky7" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-            </svg>
-          </a>
-
-          <!-- TODO: 이메일 주소를 본인의 것으로 변경하세요 -->
-          <a href="mailto:albert31115@gmail.com" aria-label="Email">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-              <polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
-          </a>
-        </div>
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
-    </div>
-  </section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title fade-in">About Me</h2>
+      <!-- Mobile Navigation -->
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-      <div class="about-content fade-in">
-        <div class="about-text">
-          <p>
-            Hello! I'm an undergraduate researcher at Korea University MINT LAB, specializing in
-            autonomous systems, robotics, and computer vision. I have expertise in developing
-            real-time perception algorithms (object detection/segmentation) and deploying them on
-            embedded systems like Jetson Orin Nano.
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-background"></div>
+      <div class="container">
+        <div class="hero-content fade-in">
+          <!-- TODO: 프로필 사진을 assets/profile.jpg에 추가하세요 -->
+          <img
+            src="assets/profile.jpg"
+            alt="Seungmin Lee Profile"
+            class="hero-image"
+            onerror="this.style.display='none'"
+          />
+
+          <h1 class="hero-title">Hi, I'm <span class="gradient-text">Seungmin Lee</span></h1>
+
+          <!-- TODO: 아래 텍스트를 본인의 직함으로 변경하세요 -->
+          <p class="hero-subtitle">
+            <span id="typed-text">Robotics - AI/ML Researcher & Developer</span>
+            <span class="cursor">|</span>
           </p>
-          <p>
-            My research focuses on Vision-Language-Action (VLA) models for general-purpose
-            robotics. I'm currently developing visualization frameworks for the LeRobot library
-            and working on data preprocessing pipelines for VLA model architectures. I aim to
-            explore how multi-modal transformer architectures can enable robots to perform complex
-            tasks from natural language instructions.
+
+          <!-- TODO: Change this description to your own -->
+          <p class="hero-description">
+            Creating innovation at the intersection of AI and robotics.
           </p>
-        </div>
 
-        <div class="skills">
-          <h3>Tech Stack</h3>
-          <div class="skills-grid">
-            <div class="skill-tag">Python</div>
-            <div class="skill-tag">C++</div>
-            <div class="skill-tag">PyTorch</div>
-            <div class="skill-tag">LeRobot</div>
-            <div class="skill-tag">ROS/ROS2</div>
-            <div class="skill-tag">OpenCV</div>
-            <div class="skill-tag">YOLOv8</div>
-            <div class="skill-tag">MuJoCo</div>
-            <div class="skill-tag">Computer Vision</div>
-            <div class="skill-tag">Robotics</div>
-            <div class="skill-tag">Git</div>
-            <div class="skill-tag">Linux</div>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+            <a
+              href="assets/cv.pdf"
+              class="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              View CV
+            </a>
+            <!-- TODO: Add your CV file to assets/cv.pdf -->
+            <a href="assets/cv.pdf" class="btn btn-secondary" download>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download CV
+            </a>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Experience Section -->
-  <section id="experience" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title fade-in">Experience</h2>
+          <div class="hero-social">
+            <!-- TODO: LinkedIn URL을 본인의 것으로 변경하세요 -->
+            <a
+              href="https://www.linkedin.com/in/seungminleealbert"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                />
+              </svg>
+            </a>
 
-      <div class="timeline">
-        <div class="timeline-item fade-in">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>Undergraduate Research Intern</h3>
-            <p class="timeline-period">Korea University MINT LAB · Nov 2025 - Present</p>
-            <p class="timeline-description">
-              Developing real-time visualization frameworks for LeRobot's LIBERO evaluation
-              pipeline. Designing training scripts and data preprocessing pipelines for
-              Vision-Language-Action (VLA) models. Constructing robot hardware XML files in MuJoCo
-              and configuring teleoperation environments.
-            </p>
-          </div>
-        </div>
+            <!-- TODO: GitHub 사용자명을 본인의 것으로 변경하세요 -->
+            <a
+              href="https://github.com/Highsky7"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
 
-        <div class="timeline-item fade-in">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>B.S. in Mechanical Engineering</h3>
-            <p class="timeline-period">Konkuk University · Expected Aug 2026</p>
-            <p class="timeline-description">GPA: 3.54/4.50 · Top 26% · Dean's List 2025</p>
-          </div>
-        </div>
-
-        <div class="timeline-item fade-in">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>Autonomous Driving Team Lead</h3>
-            <p class="timeline-period">Dec 2024 - Present</p>
-            <p class="timeline-description">
-              Being the team leader in Student club Dolbat's Autonomous driving team
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2 class="section-title fade-in">Projects</h2>
-
-      <div class="projects-grid">
-        <div class="project-card fade-in">
-          <div class="project-header">
-            <h3>DolbotX National Defense Robot</h3>
-            <a href="https://github.com/Highsky7/DolbotX" target="_blank" rel="noopener noreferrer"
-              class="project-link">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <line x1="10" y1="14" x2="21" y2="3"></line>
+            <!-- TODO: 이메일 주소를 본인의 것으로 변경하세요 -->
+            <a href="mailto:albert31115@gmail.com" aria-label="Email">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
               </svg>
             </a>
           </div>
-          <p class="project-description">
-            🥈 2nd Place - Hanwha National Defense Award. Mission-critical perception system with
-            YOLOv8 for autonomous pick-and-place operations.
-          </p>
-          <div class="project-tags">
-            <span class="tag">YOLOv8</span>
-            <span class="tag">Computer Vision</span>
-            <span class="tag">Robotics</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">About Me</h2>
+
+        <div class="about-content fade-in">
+          <div class="about-text">
+            <p>
+              Hello! I'm an undergraduate researcher at Korea University MINT LAB, specializing in
+              autonomous systems, robotics, and computer vision. I have expertise in developing
+              real-time perception algorithms (object detection/segmentation) and deploying them on
+              embedded systems like Jetson Orin Nano.
+            </p>
+            <p>
+              My research focuses on Vision-Language-Action (VLA) models for general-purpose
+              robotics. I'm currently developing visualization frameworks for the LeRobot library
+              and working on data preprocessing pipelines for VLA model architectures. I aim to
+              explore how multi-modal transformer architectures can enable robots to perform complex
+              tasks from natural language instructions.
+            </p>
+          </div>
+
+          <div class="skills">
+            <h3>Tech Stack</h3>
+            <div class="skills-grid">
+              <div class="skill-tag">Python</div>
+              <div class="skill-tag">C++</div>
+              <div class="skill-tag">PyTorch</div>
+              <div class="skill-tag">LeRobot</div>
+              <div class="skill-tag">ROS/ROS2</div>
+              <div class="skill-tag">OpenCV</div>
+              <div class="skill-tag">YOLOv8</div>
+              <div class="skill-tag">MuJoCo</div>
+              <div class="skill-tag">Computer Vision</div>
+              <div class="skill-tag">Robotics</div>
+              <div class="skill-tag">Git</div>
+              <div class="skill-tag">Linux</div>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- <div class="project-card fade-in">
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title fade-in">Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Undergraduate Research Intern</h3>
+              <p class="timeline-period">Korea University MINT LAB · Nov 2025 - Present</p>
+              <p class="timeline-description">
+                Developing real-time visualization frameworks for LeRobot's LIBERO evaluation
+                pipeline. Designing training scripts and data preprocessing pipelines for
+                Vision-Language-Action (VLA) models. Constructing robot hardware XML files in MuJoCo
+                and configuring teleoperation environments.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>B.S. in Mechanical Engineering</h3>
+              <p class="timeline-period">Konkuk University · Expected Aug 2026</p>
+              <p class="timeline-description">GPA: 3.54/4.50 · Top 26% · Dean's List 2025</p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Autonomous Driving Team Lead</h3>
+              <p class="timeline-period">Dec 2024 - Present</p>
+              <p class="timeline-description">
+                Being the team leader in Student club Dolbat's Autonomous driving team
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card fade-in">
+            <div class="project-header">
+              <h3>DolbotX National Defense Robot</h3>
+              <a
+                href="https://github.com/Highsky7/DolbotX"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+            <p class="project-description">
+              🥈 2nd Place - Hanwha National Defense Award. Mission-critical perception system with
+              YOLOv8 for autonomous pick-and-place operations.
+            </p>
+            <div class="project-tags">
+              <span class="tag">YOLOv8</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Robotics</span>
+            </div>
+          </div>
+
+          <!-- <div class="project-card fade-in">
             <div class="project-header">
               <h3>2025 Hanyang University Consortium Creative Capstone Design Competition</h3>
               <span
@@ -300,106 +403,160 @@
             </div>
           </div> -->
 
-        <div class="project-card fade-in">
-          <div class="project-header">
-            <h3>YOLOTL - Autonomous Driving</h3>
-            <a href="https://github.com/Highsky7/YOLOTL" target="_blank" rel="noopener noreferrer" class="project-link">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <line x1="10" y1="14" x2="21" y2="3"></line>
-              </svg>
-            </a>
+          <div class="project-card fade-in">
+            <div class="project-header">
+              <h3>YOLOTL - Autonomous Driving</h3>
+              <a
+                href="https://github.com/Highsky7/YOLOTL"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+            <p class="project-description">
+              🥈 2nd Place among 26 universities. Real-time lane segmentation with modified YOLOPv2
+              for full-scale EV. Custom BEV lane dataset and ROS integration.
+            </p>
+            <div class="project-tags">
+              <span class="tag">YOLOPv2</span>
+              <span class="tag">ROS</span>
+              <span class="tag">Autonomous Driving</span>
+            </div>
           </div>
-          <p class="project-description">
-            🥈 2nd Place among 26 universities. Real-time lane segmentation with modified YOLOPv2
-            for full-scale EV. Custom BEV lane dataset and ROS integration.
-          </p>
-          <div class="project-tags">
-            <span class="tag">YOLOPv2</span>
-            <span class="tag">ROS</span>
-            <span class="tag">Autonomous Driving</span>
+
+          <div class="project-card fade-in">
+            <div class="project-header">
+              <h3>CARLA Base Controller</h3>
+              <a
+                href="https://github.com/Highsky7/CARLA_Base_Controller"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+            <p class="project-description">
+              Graduation project: CARLA simulator integration with ROS1. PID longitudinal and Pure
+              Pursuit lateral controller
+            </p>
+            <div class="project-tags">
+              <span class="tag">CARLA</span>
+              <span class="tag">ROS</span>
+              <span class="tag">Control Systems</span>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="project-card fade-in">
-          <div class="project-header">
-            <h3>CARLA Base Controller</h3>
-            <a href="https://github.com/Highsky7/CARLA_Base_Controller" target="_blank" rel="noopener noreferrer"
-              class="project-link">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <line x1="10" y1="14" x2="21" y2="3"></line>
-              </svg>
-            </a>
-          </div>
-          <p class="project-description">
-            Graduation project: CARLA simulator integration with ROS1. PID longitudinal and Pure
-            Pursuit lateral controller
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title fade-in">Contact</h2>
+
+        <div class="contact-content fade-in">
+          <p class="contact-text">
+            Feel free to reach out if you're interested in new opportunities or collaboration!
           </p>
-          <div class="project-tags">
-            <span class="tag">CARLA</span>
-            <span class="tag">ROS</span>
-            <span class="tag">Control Systems</span>
+
+          <div class="contact-links">
+            <a href="mailto:albert31115@gmail.com" class="contact-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              albert31115@gmail.com
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/seungminleealbert"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-link"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+
+            <a
+              href="https://github.com/Highsky7"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-link"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              GitHub
+            </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title fade-in">Contact</h2>
-
-      <div class="contact-content fade-in">
-        <p class="contact-text">
-          Feel free to reach out if you're interested in new opportunities or collaboration!
-        </p>
-
-        <div class="contact-links">
-          <a href="mailto:albert31115@gmail.com" class="contact-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-              <polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
-            albert31115@gmail.com
-          </a>
-
-          <a href="https://www.linkedin.com/in/seungminleealbert" target="_blank" rel="noopener noreferrer"
-            class="contact-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-            </svg>
-            LinkedIn
-          </a>
-
-          <a href="https://github.com/Highsky7" target="_blank" rel="noopener noreferrer" class="contact-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-            </svg>
-            GitHub
-          </a>
-        </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Highsky. Built with ❤️ and tested with Playwright.</p>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Highsky. Built with ❤️ and tested with Playwright.</p>
-    </div>
-  </footer>
-
-  <!-- JavaScript -->
-  <script src="script.js"></script>
-</body>
-
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
 </html>
