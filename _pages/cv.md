@@ -31,20 +31,52 @@ MINT LAB, Korea University, Seoul &nbsp;·&nbsp; *Nov 2025 – Present*
 
 ## Project Experiences
 
-**Autonomous Driving Team Lead**
-Dolbot &nbsp;·&nbsp; *Dec 2024 – Nov 2025*
+*(Prioritized by relevance and key achievements)*
 
-- Led the autonomous driving team's research and development activities
-- Designed and integrated perception and motion control algorithms for a 1/5-scale autonomous ground vehicle
-- Won **2nd place** (out of 26 international university teams) at an autonomous driving competition
+**The 2025 Army Chief of Staff Cup National Defense Robot Competition**
+Software Team Lead &nbsp;·&nbsp; *Jul 2025 – Sep 2025*
 
-**Software Team Lead**
-2025 Army Chief of Staff Cup National Defense Robot Competition &nbsp;·&nbsp; *Jul 2025 – Sep 2025*
+- **Achievement:** Hanwha National Defense Award (2nd Place, Sponsored by Hanwha AeroSpace)
+- **Repository:** [DolbotX](https://github.com/Highsky7/DolbotX)
+- Designed a mission-critical perception system for autonomous pick-and-place operations
+- Engineered a high-accuracy pipeline integrating a custom YOLOv8 model with multi-class drivable area segmentation, and converted PyTorch weights to ONNX format for optimized inference
+- Spearheaded the integration of the vision module with robotic manipulator controls via ROS2 services for precise autonomous execution
 
-- Trained and fine-tuned a custom YOLOv8 model for real-time obstacle detection
-- Developed a driving area segmentation module and exported models to ONNX for embedded deployment
-- Built the full ROS2-based software stack for a manipulator robot, covering perception, planning, and control
-- **Hanwha National Defense Award — 2nd Place**
+**2025 Hanyang University Consortium & 2025 E2 Festa Creative Capstone Design Competition**
+Speech Recognition Developer &nbsp;·&nbsp; *Nov 2025*
+
+- **Achievement:** 1st Place (Hanyang University Consortium) &amp; Minister of Trade, Industry and Energy Award (E2 Festa Engineering Education Festival)
+- Developed a speech recognition and text extraction algorithm utilizing OpenAI's Whisper model
+- Implemented noise attenuation filters to enhance recognition accuracy in noisy environments
+
+**The 4th International University Student EV Autonomous Driving Competition**
+Team Lead, Perception &nbsp;·&nbsp; *Jan 2025 – Jul 2025*
+
+- **Achievement:** 2nd Place among 26 international universities
+- **Repository:** [YOLOTL](https://github.com/Highsky7/YOLOTL)
+- Directed the development of a real-time lane segmentation algorithm, decision module, and system integration on a 1/5-scale EV
+- Developed a large-scale custom Bird's-Eye-View (BEV) lane dataset and trained a novel segmentation model (YOLOTL)
+- Integrated the vision system with ROS1 for path generation and implemented a pure pursuit lateral controller
+- Designed a decision module to dynamically adjust the EV's steering angle based on real-time track conditions
+- Managed a hybrid environment using bash scripts and Python virtual environments to handle dependency conflicts between VoxelNeXt and YOLOTL packages
+
+**aMAP Innovator Championship 2025**
+Team Lead, Vision Systems &nbsp;·&nbsp; *Sep 2025*
+
+- **Achievement:** 4th Place out of 38 highly competitive teams
+- Designed and implemented a robust computer vision system to accurately detect a 1/5 scale vehicle and classify traffic lights with 4 signals
+
+**Self-Designed Semester Project: DolbotX Robot Platform**
+Project Lead &nbsp;·&nbsp; *Sep 2025 – Dec 2025*
+
+- Developed the "DolbotX" general-purpose robot platform by integrating advanced perception and control modules into a versatile, autonomous system
+
+**Graduation Project: CARLA Autonomous Driving Base Controller**
+System Lead &nbsp;·&nbsp; *Mar 2025 – Jul 2025*
+
+- **Repository:** [CARLA\_Base\_Controller](https://github.com/Highsky7/CARLA_Base_Controller)
+- Integrated the CARLA simulator with ROS1 via a ROS bridge
+- Designed and validated a base controller (PID for longitudinal, Pure Pursuit for lateral) as a fallback mechanism for high-level controller failure
 
 ---
 
@@ -79,10 +111,13 @@ ZeroMQ &nbsp;·&nbsp; Git / GitHub &nbsp;·&nbsp; Linux
 
 ## Projects
 
-See [Portfolio](/portfolio/) for detailed descriptions.
+See [Portfolio](/portfolio/) for detailed descriptions for some projects below.
 
 | Project | Role | Technologies |
 |---------|------|--------------|
-| DolbotX — National Defense Robot | Software Team Lead | YOLOv8, ONNX, ROS2, Python |
-| YOLOTL — Autonomous Driving | Team Lead | PyTorch, ROS1, Lane Segmentation |
-| CARLA Base Controller | Developer | CARLA, ROS1, PID, Pure Pursuit |
+| [DolbotX — National Defense Robot](https://github.com/Highsky7/DolbotX) | Software Team Lead | YOLOv8, ONNX, ROS2, Python |
+| Capstone: Speech Recognition System | Speech Recognition Developer | Whisper, Python |
+| [YOLOTL — EV Autonomous Driving](https://github.com/Highsky7/YOLOTL) | Team Lead, Perception | PyTorch, ROS1, Lane Segmentation |
+| aMAP Innovator Championship | Team Lead, Vision Systems | Computer Vision, Python |
+| DolbotX Robot Platform (Self-Designed) | Project Lead | ROS2, Perception, Control |
+| [CARLA Base Controller](https://github.com/Highsky7/CARLA_Base_Controller) | System Lead | CARLA, ROS1, PID, Pure Pursuit |

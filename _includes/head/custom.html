@@ -1,5 +1,19 @@
 <style>
-  /* Reduce size of Previous / Next pager buttons on portfolio single pages */
+  /* ── Text size: match academicpages style (smaller body text, keep headings) ── */
+  .page__content p,
+  .page__content li,
+  .page__content td,
+  .page__content th,
+  .page__content blockquote {
+    font-size: 0.84em;
+  }
+
+  /* ── Hide footer FEED / Follow section ── */
+  .page__footer-follow {
+    display: none;
+  }
+
+  /* ── Reduce size of Previous / Next pager buttons ── */
   .pagination {
     display: flex;
     justify-content: space-between;
