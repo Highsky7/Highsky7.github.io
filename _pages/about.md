@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Undergraduate Research Intern at [MINT LAB](https://mintlab1.github.io/), Korea University, where I work on **Vision-Language-Action (VLA) models** and robotic learning systems. My current research involves designing VLA training and data preprocessing pipelines, developing real-time visualization tools for LeRobot LIBERO evaluation, and implementing distributed inference with ZeroMQ.
+I am an Undergraduate Research Intern at [MINT LAB](https://mintlab.korea.ac.kr/), Korea University, where I work on **Vision-Language-Action (VLA) models** and robotic learning systems. My current research involves designing VLA training and data preprocessing pipelines, developing real-time visualization tools for LeRobot LIBERO evaluation, and implementing distributed inference with ZeroMQ.
 
 I am completing my B.S. in Mechanical Engineering at [Konkuk University](https://www.konkuk.ac.kr), graduating in August 2026. I ranked in the **top 9.1%** of my class and received the Dean's List award in 2025 (GPA: 3.59/4.50; Major GPA: 3.69/4.50).
 
