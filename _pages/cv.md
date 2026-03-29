@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 [**Download CV (PDF)**](/files/cv.pdf){: .btn .btn--primary .btn--large}
 
 ---
