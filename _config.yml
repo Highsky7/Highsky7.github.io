@@ -11,8 +11,6 @@ description: >-
 url: "https://highsky7.github.io"
 baseurl: ""
 repository: "Highsky7/Highsky7.github.io"
-atom_feed:
-  hide: false
 
 teaser: # path of fallback teaser image
 logo: # path of logo image to display in the masthead
