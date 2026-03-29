@@ -1,11 +1,18 @@
 <style>
-  /* ── Text size: match academicpages style (smaller body text, keep headings) ── */
+  /* ── Text size: match academicpages style across ALL layout types ── */
+  /* single layout (About, Portfolio items) */
   .page__content p,
   .page__content li,
   .page__content td,
   .page__content th,
-  .page__content blockquote {
-    font-size: 0.84em;
+  .page__content blockquote,
+  /* archive layout (CV, Portfolio listing) */
+  .archive p,
+  .archive li,
+  .archive td,
+  .archive th,
+  .archive__item-excerpt {
+    font-size: 0.84em !important;
   }
 
   /* ── Hide footer FEED / Follow section ── */

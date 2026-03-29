@@ -38,10 +38,10 @@ I am completing my B.S. in Mechanical Engineering at [Konkuk University](https:/
 - Developing real-time visualization tools for evaluating LeRobot policies on LIBERO benchmarks
 - Implementing distributed inference architecture using ZeroMQ for multi-node robot control
 
-**Autonomous Driving Team Lead** — Dolbot *(Dec 2024 – Nov 2025)*
+**Autonomous Driving Team Lead** — 4th Int'l EV Autonomous Driving Competition & aMAP Innovator Championship *(Jan 2025 – Sep 2025)*
 
-- Led a team developing perception and motion control algorithms for a 1/5-scale autonomous ground vehicle
-- Achieved **2nd place** out of 26 international university teams in an autonomous driving competition
+- Led team to **2nd place** among 26 international universities at the 4th International University Student EV Autonomous Driving Competition
+- Led team to **4th place** out of 38 teams at the aMAP Innovator Championship 2025
 
 **Software Team Lead** — 2025 Army Chief of Staff Cup National Defense Robot Competition *(Jul – Sep 2025)*
 
@@ -56,9 +56,15 @@ I am completing my B.S. in Mechanical Engineering at [Konkuk University](https:/
 
 | Year | Award | Organization |
 |------|-------|--------------|
-| 2025 | Hanwha National Defense Award — 2nd Place | Army Chief of Staff Cup Robot Competition |
-| 2025 | 2nd Place (26 international universities) | Autonomous Driving Competition |
-| 2025 | Dean's List | Konkuk University |
+| 2026 | 2025 2nd Semester Dean's List | Konkuk University |
+| 2025 | Minister of Trade, Industry and Energy Award | 2025 E2 Festa Creative Capstone Design Competition |
+| 2025 | **Hanwha National Defense Award — 2nd Place** (Sponsored by Hanwha AeroSpace) | 2025 Army Chief of Staff Cup |
+| 2025 | **1st Place** | 2025 Hanyang University Consortium Creative Capstone Design Competition |
+| 2025 | **2nd Place** (26 international universities) | 4th Int'l University Student EV Autonomous Driving Competition |
+| 2025 | 4th Place (38 teams) | aMAP Innovator Championship |
+| 2025 | 2025 1st Semester Dean's List | Konkuk University |
+| 2024 | Bronze Award | 4th Dalseo National University Student Invention Idea Contest |
+| 2024 | Design Award | 3rd Future Automobile Software Contest |
 
 ---
 
