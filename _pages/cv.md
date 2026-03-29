@@ -18,7 +18,7 @@ Konkuk University, Seoul, Korea &nbsp;·&nbsp; *Mar 2019 – Aug 2026 (Expected)
 
 ---
 
-## Research Experience
+## Research Experiences
 
 **Undergraduate Research Intern**
 MINT LAB, Korea University, Seoul &nbsp;·&nbsp; *Nov 2025 – Present*
@@ -29,7 +29,7 @@ MINT LAB, Korea University, Seoul &nbsp;·&nbsp; *Nov 2025 – Present*
 
 ---
 
-## Work Experience
+## Project Experiences
 
 **Autonomous Driving Team Lead**
 Dolbot &nbsp;·&nbsp; *Dec 2024 – Nov 2025*
