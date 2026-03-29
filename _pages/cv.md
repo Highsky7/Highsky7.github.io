@@ -10,11 +10,7 @@ redirect_from:
 ## Education
 
 **B.S. in Mechanical Engineering**
-Konkuk University, Seoul, Korea &nbsp;·&nbsp; *Mar 2019 – Aug 2026 (Expected)*
-
-- GPA: **3.59 / 4.50** &nbsp;(Top 9.1% of class)
-- Major GPA: **3.69 / 4.50**
-- Dean's List, 2025
+ - Konkuk University, Seoul, Korea &nbsp;·&nbsp; *Mar 2019 – Aug 2026 (Expected)*
 
 ---
 
@@ -82,19 +78,19 @@ System Lead &nbsp;·&nbsp; *Mar 2025 – Jul 2025*
 
 ## Skills
 
-### Programming Languages
+#### Programming Languages
 Python &nbsp;·&nbsp; C++
 
-### Machine Learning & Deep Learning
+#### Machine Learning & Deep Learning
 PyTorch &nbsp;·&nbsp; LeRobot &nbsp;·&nbsp; Ultralytics (YOLOv8) &nbsp;·&nbsp; Hugging Face Transformers &nbsp;·&nbsp; ONNX
 
-### Robotics & Simulation
+#### Robotics & Simulation
 ROS &nbsp;·&nbsp; ROS2 &nbsp;·&nbsp; MuJoCo &nbsp;·&nbsp; CARLA Simulator
 
-### Computer Vision
+#### Computer Vision
 OpenCV &nbsp;·&nbsp; NumPy
 
-### Infrastructure & Tools
+#### Infrastructure & Tools
 ZeroMQ &nbsp;·&nbsp; Git / GitHub &nbsp;·&nbsp; Linux
 
 ---
