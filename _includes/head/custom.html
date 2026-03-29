@@ -1,12 +1,10 @@
 <style>
   /* ── Text size: match academicpages style across ALL layout types ── */
-  /* single layout (About, Portfolio items) */
   .page__content p,
   .page__content li,
   .page__content td,
   .page__content th,
   .page__content blockquote,
-  /* archive layout (CV, Portfolio listing) */
   .archive p,
   .archive li,
   .archive td,
@@ -15,7 +13,7 @@
     font-size: 0.84em !important;
   }
 
-  /* Portfolio listing — item title (h2 links) */
+  /* Portfolio listing — item title size */
   .archive__item-title {
     font-size: 1em !important;
   }
@@ -41,4 +39,86 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  /* ── Dark mode: invert + hue-rotate trick ── */
+  html[data-theme="dark"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  /* Re-invert media so photos/videos look natural */
+  html[data-theme="dark"] img,
+  html[data-theme="dark"] video,
+  html[data-theme="dark"] iframe {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  /* Counter-invert the toggle button so its emoji always looks correct */
+  html[data-theme="dark"] #theme-toggle {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  /* ── Dark mode toggle button (fixed bottom-right) ── */
+  #theme-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 9999;
+    background: rgba(120, 120, 120, 0.15);
+    border: 1px solid rgba(120, 120, 120, 0.35);
+    border-radius: 50%;
+    width: 2.6rem;
+    height: 2.6rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  #theme-toggle:hover {
+    background: rgba(120, 120, 120, 0.3);
+    transform: scale(1.1);
+  }
 </style>
+
+<script>
+  /* ── Step 1: Apply saved theme immediately to prevent flash of wrong mode ── */
+  (function () {
+    var saved = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (saved === 'dark' || (!saved && prefersDark)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+
+  /* ── Step 2: Inject the toggle button and wire up click handler ── */
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.createElement('button');
+    btn.id = 'theme-toggle';
+    btn.setAttribute('aria-label', 'Toggle dark / light mode');
+    btn.setAttribute('title', 'Toggle dark / light mode');
+
+    function isDark() {
+      return document.documentElement.getAttribute('data-theme') === 'dark';
+    }
+
+    btn.textContent = isDark() ? '☀️' : '🌙';
+
+    btn.addEventListener('click', function () {
+      if (isDark()) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+        btn.textContent = '🌙';
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        btn.textContent = '☀️';
+      }
+    });
+
+    document.body.appendChild(btn);
+  });
+</script>
