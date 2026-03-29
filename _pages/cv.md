@@ -98,9 +98,15 @@ System Lead &nbsp;·&nbsp; *Mar 2025 – Jul 2025*
 
 | Year | Award | Competition / Organization |
 |------|-------|---------------------------|
-| 2025 | **Hanwha National Defense Award — 2nd Place** | 2025 Army Chief of Staff Cup National Defense Robot Competition |
-| 2025 | **2nd Place** (26 international universities) | Autonomous Driving Competition |
-| 2025 | **Dean's List** | Konkuk University |
+| 2026 | 2025 2nd Semester Dean's List | Konkuk University |
+| 2025 | Minister of Trade, Industry and Energy Award | 2025 E2 Festa Creative Capstone Design Competition |
+| 2025 | **Hanwha National Defense Award — 2nd Place** (Sponsored by Hanwha AeroSpace) | 2025 Army Chief of Staff Cup |
+| 2025 | **1st Place** | 2025 Hanyang University Consortium Creative Capstone Design Competition |
+| 2025 | **2nd Place** (26 international universities) | 4th Int'l University Student EV Autonomous Driving Competition |
+| 2025 | 4th Place (38 teams) | aMAP Innovator Championship |
+| 2025 | 2025 1st Semester Dean's List | Konkuk University |
+| 2024 | Bronze Award | 4th Dalseo National University Student Invention Idea Contest |
+| 2024 | Design Award | 3rd Future Automobile Software Contest |
 
 ---
 
