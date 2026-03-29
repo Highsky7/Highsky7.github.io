@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+<p>A collection of robotics and autonomous systems projects I have built and led.</p>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+
+<div class="entries-{{ entries_layout }}">
+  {% for post in site.portfolio reversed %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
