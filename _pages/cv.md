@@ -7,10 +7,6 @@ redirect_from:
   - /resume
 ---
 
-[**Download CV (PDF)**](/files/cv.pdf){: .btn .btn--primary .btn--large}
-
----
-
 ## Education
 
 **B.S. in Mechanical Engineering**

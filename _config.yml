@@ -31,8 +31,10 @@ author:
     B.S. in Mechanical Engineering, Konkuk University (Expected Aug 2026).
   location: "Seoul, Korea"
   employer: "Korea University MINT LAB"
-  email: "albert31115@gmail.com"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:REPLACE_WITH_YOUR_KONKUK_EMAIL@konkuk.ac.kr"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:albert31115@gmail.com"
