@@ -1,91 +1,231 @@
 <style>
-  /* ── Text size: match academicpages style across ALL layout types ── */
-  .page__content p,
-  .page__content li,
-  .page__content td,
-  .page__content th,
-  .page__content blockquote,
-  .archive p,
-  .archive li,
-  .archive td,
-  .archive th,
-  .archive__item-excerpt {
-    font-size: 0.84em !important;
-  }
+/* ============================================================
+   TEXT SIZE — match academicpages style (all layout types)
+   ============================================================ */
+.page__content p,
+.page__content li,
+.page__content td,
+.page__content th,
+.page__content blockquote,
+.archive p,
+.archive li,
+.archive td,
+.archive th,
+.archive__item-excerpt { font-size: 0.84em !important; }
 
-  /* Portfolio listing — item title size */
-  .archive__item-title {
-    font-size: 1em !important;
-  }
+.archive__item-title { font-size: 1em !important; }
 
-  /* ── Hide footer FEED / Follow section ── */
-  .page__footer-follow {
-    display: none;
-  }
+/* ============================================================
+   PAGER BUTTONS — smaller Previous / Next
+   ============================================================ */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0;
+}
+.pagination--pager {
+  font-size: 0.75em !important;
+  padding: 0.4em 1em !important;
+  border-radius: 4px;
+  max-width: 45%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-  /* ── Reduce size of Previous / Next pager buttons ── */
-  .pagination {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5em 0;
-  }
+/* ============================================================
+   HIDE FOOTER FEED SECTION
+   ============================================================ */
+.page__footer-follow { display: none; }
 
-  .pagination--pager {
-    font-size: 0.75em !important;
-    padding: 0.4em 1em !important;
-    border-radius: 4px;
-    max-width: 45%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+/* ============================================================
+   LIGHT MODE — warm ivory / beige palette (default)
+   ============================================================ */
+html, body {
+  background-color: #f5f0e8 !important;
+}
 
-  /* ── Dark mode: invert + hue-rotate trick ── */
-  html[data-theme="dark"] {
-    filter: invert(1) hue-rotate(180deg);
-  }
+body { color: #2d2926 !important; }
 
-  /* Re-invert media so photos/videos look natural */
-  html[data-theme="dark"] img,
-  html[data-theme="dark"] video,
-  html[data-theme="dark"] iframe {
-    filter: invert(1) hue-rotate(180deg);
-  }
+/* Navigation */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background-color: #ede7db !important;
+  border-bottom: 1px solid #d9d0c3 !important;
+}
+.greedy-nav a,
+.greedy-nav .visible-links a,
+.masthead__menu-item a,
+.site-title {
+  color: #2d2926 !important;
+}
+.greedy-nav a:hover,
+.greedy-nav .visible-links a:hover { color: #3d6b8a !important; }
+.greedy-nav__toggle span { background: #2d2926 !important; }
 
-  /* Counter-invert the toggle button so its emoji always looks correct */
-  html[data-theme="dark"] #theme-toggle {
-    filter: invert(1) hue-rotate(180deg);
-  }
+/* Footer */
+.page__footer {
+  background-color: #e9e3d7 !important;
+  color: #6b6460 !important;
+  border-top: 1px solid #d9d0c3 !important;
+}
+.page__footer a { color: #3d6b8a !important; }
 
-  /* ── Dark mode toggle button (fixed bottom-right) ── */
-  #theme-toggle {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 9999;
-    background: rgba(120, 120, 120, 0.15);
-    border: 1px solid rgba(120, 120, 120, 0.35);
-    border-radius: 50%;
-    width: 2.6rem;
-    height: 2.6rem;
-    cursor: pointer;
-    font-size: 1.1rem;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    transition: background 0.2s, transform 0.15s;
-  }
+/* Links */
+a:not(.btn) { color: #3d6b8a; }
+a:not(.btn):hover { color: #2a4f6a; }
 
-  #theme-toggle:hover {
-    background: rgba(120, 120, 120, 0.3);
-    transform: scale(1.1);
-  }
+/* Tables (minimal-mistakes default is white) */
+table { background: #faf6f0 !important; }
+th {
+  background: #ede7db !important;
+  color: #2d2926 !important;
+  border-color: #d9d0c3 !important;
+}
+td {
+  color: #2d2926 !important;
+  border-color: #d9d0c3 !important;
+}
+tr:nth-child(even) { background: #f0ebe1 !important; }
+
+/* Horizontal rules */
+hr { border-color: #d9d0c3 !important; }
+
+/* Code */
+code, pre {
+  background: #f0ebe1 !important;
+  color: #2d2926 !important;
+}
+
+/* ============================================================
+   DARK MODE — soft slate / blue-grey palette
+   ============================================================ */
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  background-color: #2b2e3b !important;
+  color: #dcd8d2 !important;
+}
+
+/* Navigation */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead__inner-wrap,
+html[data-theme="dark"] .greedy-nav {
+  background-color: #333748 !important;
+  border-bottom-color: #484d62 !important;
+}
+html[data-theme="dark"] .greedy-nav a,
+html[data-theme="dark"] .greedy-nav .visible-links a,
+html[data-theme="dark"] .masthead__menu-item a,
+html[data-theme="dark"] .site-title { color: #dcd8d2 !important; }
+html[data-theme="dark"] .greedy-nav a:hover,
+html[data-theme="dark"] .greedy-nav .visible-links a:hover { color: #82b2cc !important; }
+html[data-theme="dark"] .greedy-nav__toggle span { background: #dcd8d2 !important; }
+
+/* Footer */
+html[data-theme="dark"] .page__footer {
+  background-color: #22253150 !important;
+  background: #22253050 !important;
+  background-color: #242739 !important;
+  color: #9c9890 !important;
+  border-top-color: #484d62 !important;
+}
+html[data-theme="dark"] .page__footer a { color: #82b2cc !important; }
+
+/* Links */
+html[data-theme="dark"] a:not(.btn) { color: #82b2cc !important; }
+html[data-theme="dark"] a:not(.btn):hover { color: #a8ccde !important; }
+
+/* Headings */
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .page__title { color: #e8e4df !important; }
+
+/* Author sidebar */
+html[data-theme="dark"] .author__name { color: #e8e4df !important; }
+html[data-theme="dark"] .author__bio  { color: #b0aca6 !important; }
+html[data-theme="dark"] .author__urls a,
+html[data-theme="dark"] .author__urls-wrapper a { color: #82b2cc !important; }
+
+/* Content areas */
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .archive { color: #dcd8d2 !important; }
+
+html[data-theme="dark"] .archive__item-title a { color: #82b2cc !important; }
+html[data-theme="dark"] .archive__item-excerpt { color: #b0aca6 !important; }
+
+/* Tables */
+html[data-theme="dark"] table { background: #353848 !important; border-color: #484d62 !important; }
+html[data-theme="dark"] th {
+  background: #3c4054 !important;
+  color: #e8e4df !important;
+  border-color: #484d62 !important;
+}
+html[data-theme="dark"] td {
+  color: #dcd8d2 !important;
+  border-color: #484d62 !important;
+}
+html[data-theme="dark"] tr:nth-child(even) { background: #3a3d4e !important; }
+
+/* Horizontal rules */
+html[data-theme="dark"] hr { border-color: #484d62 !important; }
+
+/* Code */
+html[data-theme="dark"] code,
+html[data-theme="dark"] pre {
+  background: #353848 !important;
+  color: #c8c4be !important;
+}
+
+/* Pager buttons in dark mode */
+html[data-theme="dark"] .pagination--pager {
+  background: #353848 !important;
+  border-color: #484d62 !important;
+  color: #82b2cc !important;
+}
+
+/* ============================================================
+   DARK MODE TOGGLE BUTTON (position: fixed — always visible)
+   ============================================================ */
+#theme-toggle {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;           /* below filter stacking context issues */
+  background: rgba(100, 95, 88, 0.18);
+  border: 1px solid rgba(100, 95, 88, 0.35);
+  border-radius: 50%;
+  width: 2.6rem;
+  height: 2.6rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  transition: background 0.2s, transform 0.15s;
+}
+#theme-toggle:hover {
+  background: rgba(100, 95, 88, 0.32);
+  transform: scale(1.1);
+}
+
+html[data-theme="dark"] #theme-toggle {
+  background: rgba(180, 175, 168, 0.18);
+  border-color: rgba(180, 175, 168, 0.35);
+}
+html[data-theme="dark"] #theme-toggle:hover {
+  background: rgba(180, 175, 168, 0.32);
+}
 </style>
 
 <script>
-  /* ── Step 1: Apply saved theme immediately to prevent flash of wrong mode ── */
+  /* ── Step 1: Apply saved theme immediately — prevents flash of wrong mode ── */
   (function () {
     var saved = localStorage.getItem('theme');
     var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -94,7 +234,7 @@
     }
   })();
 
-  /* ── Step 2: Inject the toggle button and wire up click handler ── */
+  /* ── Step 2: Inject toggle button and wire interaction after DOM ready ── */
   document.addEventListener('DOMContentLoaded', function () {
     var btn = document.createElement('button');
     btn.id = 'theme-toggle';
@@ -105,17 +245,17 @@
       return document.documentElement.getAttribute('data-theme') === 'dark';
     }
 
-    btn.textContent = isDark() ? '☀️' : '🌙';
+    btn.textContent = isDark() ? '\u2600\uFE0F' : '\uD83C\uDF19';   /* ☀️ : 🌙 */
 
     btn.addEventListener('click', function () {
       if (isDark()) {
         document.documentElement.removeAttribute('data-theme');
         localStorage.setItem('theme', 'light');
-        btn.textContent = '🌙';
+        btn.textContent = '\uD83C\uDF19';   /* 🌙 */
       } else {
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-        btn.textContent = '☀️';
+        btn.textContent = '\u2600\uFE0F';   /* ☀️ */
       }
     });
 
