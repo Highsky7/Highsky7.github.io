@@ -9,8 +9,7 @@ redirect_from:
 
 ## Education
 
-**B.S. in Mechanical Engineering**
- - Konkuk University, Seoul, Korea &nbsp;·&nbsp; *Mar 2019 – Aug 2026 (Expected)*
+- B.S. in Mechanical Engineering, Konkuk University, Seoul, Korea &nbsp;·&nbsp; *Mar 2019 – Aug 2026 (Expected)*
 
 ---
 
