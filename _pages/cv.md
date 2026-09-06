@@ -9,14 +9,27 @@ redirect_from:
 
 ## Education
 
-- B.S. in Mechanical Engineering, Konkuk University, Seoul, Korea &nbsp;·&nbsp; *Mar 2019 – Aug 2026 (Expected)*
+- Integrated M.S.–Ph.D. Program, MINT LAB, Korea University, Seoul, Korea &nbsp;·&nbsp; *Currently enrolled*
+- B.S. in Mechanical Engineering, Konkuk University, Seoul, Korea &nbsp;·&nbsp; *Mar 2019 – Aug 2026 (Graduated)*
+
+---
+
+## Publications
+
+**TDSR-VLA: Transition-aware Denoising Sequence Representations for Vision-Language-Action**
+
+- **Co-first author**
+- **ECCV 2026 · Poster** — accepted for a poster presentation; participating in the poster session
+- [Code](https://github.com/mintlabkorea/TDSR-VLA)
 
 ---
 
 ## Research Experiences
 
-**Undergraduate Research Intern**
-MINT LAB, Korea University, Seoul &nbsp;·&nbsp; *Nov 2025 – Present*
+**Integrated M.S.–Ph.D. Student**
+MINT LAB, Korea University, Seoul &nbsp;·&nbsp; *Current*
+
+Joined MINT LAB as an Undergraduate Research Intern in November 2025; now enrolled in the integrated M.S.–Ph.D. program.
 
 - Designed VLA (Vision-Language-Action) training and data preprocessing pipelines for tabletop manipulation tasks
 - Built real-time visualization tools to monitor and evaluate LeRobot policy performance on LIBERO simulation benchmarks

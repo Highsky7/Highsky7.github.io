@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an Undergraduate Research Intern at [MINT LAB](https://mintlab.korea.ac.kr/), Korea University, where I work on **Vision-Language-Action (VLA) models** and robotic learning systems. My current research involves designing VLA training and data preprocessing pipelines, developing real-time visualization tools for LeRobot LIBERO evaluation, and implementing distributed inference with ZeroMQ.
+I am an **integrated M.S.–Ph.D. student** at [MINT LAB](https://mintlab.korea.ac.kr/), Korea University, where I work on **Vision-Language-Action (VLA) models** and robotic learning systems. My current research involves designing VLA training and data preprocessing pipelines, developing real-time visualization tools for LeRobot LIBERO evaluation, and implementing distributed inference with ZeroMQ.
 
-I am completing my B.S. in Mechanical Engineering at [Konkuk University](https://www.konkuk.ac.kr), graduating in August 2026. I ranked in the **top 9.1%** of my class and received the Dean's List award in 2025 (GPA: 3.59/4.50; Major GPA: 3.69/4.50).
+I received my **B.S. in Mechanical Engineering** from [Konkuk University](https://www.konkuk.ac.kr) in August 2026. I ranked in the **top 9.1%** of my class and received the Dean's List award in 2025 (GPA: 3.59/4.50; Major GPA: 3.69/4.50).
+
+I am a **co-first author of TDSR-VLA**, accepted to **ECCV 2026** for a **poster presentation**, and will participate in the poster session.
 
 ---
 
@@ -24,15 +26,30 @@ I am completing my B.S. in Mechanical Engineering at [Konkuk University](https:/
 
 ## Education
 
-**B.S. in Mechanical Engineering** — Konkuk University, Seoul *(Mar 2019 – Aug 2026, Expected)*
+**Integrated M.S.–Ph.D. Program** — Korea University, Seoul *(Currently enrolled)*
+- MINT LAB
+
+**B.S. in Mechanical Engineering** — Konkuk University, Seoul *(Mar 2019 – Aug 2026, Graduated)*
 - GPA: 3.59 / 4.50 &nbsp;·&nbsp; Major GPA: 3.69 / 4.50 &nbsp;·&nbsp; Top 9.1%
 - Dean's List, 2025
 
 ---
 
+## Publications
+
+**TDSR-VLA: Transition-aware Denoising Sequence Representations for Vision-Language-Action**
+
+- **Co-first author**
+- **ECCV 2026 · Poster** — accepted for a poster presentation; participating in the poster session
+- [Code](https://github.com/mintlabkorea/TDSR-VLA)
+
+---
+
 ## Recent Experience
 
-**Undergraduate Research Intern** — MINT LAB, Korea University *(Nov 2025 – Present)*
+**Integrated M.S.–Ph.D. Student** — MINT LAB, Korea University *(Current)*
+
+I joined MINT LAB as an Undergraduate Research Intern in November 2025 and am now an integrated M.S.–Ph.D. student.
 
 - Designing VLA training and data preprocessing pipelines for robotic manipulation tasks
 - Developing real-time visualization tools for evaluating LeRobot policies on LIBERO benchmarks
